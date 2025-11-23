@@ -1,0 +1,24 @@
+2025-11-23 21:13:05.623 +03 [28549] LOG:  starting PostgreSQL 17.0 on aarch64-unknown-linux-android, compiled by Android (13624864, +pgo, +bolt, +lto, +mlgo, based on r530567e) clang version 19.0.1 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2), 64-bit
+2025-11-23 21:13:05.624 +03 [28549] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-11-23 21:13:05.627 +03 [28549] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2025-11-23 21:13:05.631 +03 [28555] LOG:  database system was shut down at 2025-11-23 21:13:05 +03
+2025-11-23 21:13:05.645 +03 [28549] LOG:  database system is ready to accept connections
+2025-11-23 21:15:20.877 +03 [29563] FATAL:  role "termux" does not exist
+2025-11-23 21:16:08.034 +03 [30593] ERROR:  database "vibetube" already exists
+2025-11-23 21:16:08.034 +03 [30593] STATEMENT:  CREATE DATABASE vibetube;
+2025-11-23 21:18:05.649 +03 [28553] LOG:  checkpoint starting: time
+2025-11-23 21:19:45.001 +03 [28553] LOG:  checkpoint complete: wrote 987 buffers (6.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=99.162 s, sync=0.158 s, total=99.352 s; sync files=317, longest=0.008 s, average=0.001 s; distance=4550 kB, estimate=4550 kB; lsn=0/1962DC8, redo lsn=0/1962D38
+2025-11-23 21:24:03.896 +03 [2490] ERROR:  relation "users" does not exist at character 16
+2025-11-23 21:24:03.896 +03 [2490] STATEMENT:  SELECT id FROM users WHERE email = $1 OR username = $2
+2025-11-23 21:24:05.636 +03 [2490] ERROR:  relation "users" does not exist at character 16
+2025-11-23 21:24:05.636 +03 [2490] STATEMENT:  SELECT id FROM users WHERE email = $1 OR username = $2
+2025-11-23 21:24:05.998 +03 [2490] ERROR:  relation "users" does not exist at character 16
+2025-11-23 21:24:05.998 +03 [2490] STATEMENT:  SELECT id FROM users WHERE email = $1 OR username = $2
+2025-11-23 21:28:05.201 +03 [28553] LOG:  checkpoint starting: time
+2025-11-23 21:28:15.309 +03 [28553] LOG:  checkpoint complete: wrote 100 buffers (0.6%); 0 WAL file(s) added, 0 removed, 0 recycled; write=10.019 s, sync=0.058 s, total=10.109 s; sync files=86, longest=0.006 s, average=0.001 s; distance=399 kB, estimate=4135 kB; lsn=0/19C6B60, redo lsn=0/19C6B08
+2025-11-23 21:38:05.491 +03 [28553] LOG:  checkpoint starting: time
+2025-11-23 21:38:06.752 +03 [28553] LOG:  checkpoint complete: wrote 13 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.224 s, sync=0.009 s, total=1.262 s; sync files=10, longest=0.004 s, average=0.001 s; distance=1 kB, estimate=3721 kB; lsn=0/19C7098, redo lsn=0/19C7040
+2025-11-23 21:48:05.926 +03 [28553] LOG:  checkpoint starting: time
+2025-11-23 21:48:07.574 +03 [28553] LOG:  checkpoint complete: wrote 17 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.626 s, sync=0.008 s, total=1.648 s; sync files=12, longest=0.005 s, average=0.001 s; distance=2 kB, estimate=3349 kB; lsn=0/19C7B60, redo lsn=0/19C7B08
+2025-11-23 21:53:05.658 +03 [28553] LOG:  checkpoint starting: time
+2025-11-23 21:53:08.744 +03 [28553] LOG:  checkpoint complete: wrote 31 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.048 s, sync=0.014 s, total=3.093 s; sync files=22, longest=0.005 s, average=0.001 s; distance=6 kB, estimate=3015 kB; lsn=0/19C94F0, redo lsn=0/19C9498
